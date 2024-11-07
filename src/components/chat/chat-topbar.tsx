@@ -143,7 +143,7 @@ export default function ChatTopbar({
 
   const getDisplayName = (model: string) => {
     const match = model.match(/MuniCHI/)
-    return match ? 'MuniCHI' : model
+    return match ? 'ChatMPCH' : model
   }
 
   const getStatusBadge = () => {
