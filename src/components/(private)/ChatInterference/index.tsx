@@ -84,7 +84,7 @@ export default function ChatComponent({
                 className='dark:invert'
               /> */}
               <h1 className='text-2xl font-bold text-primary font-frances'>
-                MuniCHI
+                ChatMPCH
               </h1>
             </div>
           </div>

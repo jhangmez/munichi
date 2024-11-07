@@ -1,4 +1,4 @@
-# MuniCHI Chatbot
+# ChatMPCH Chatbot
 
 > ⚠️ Actualmente en desarrollo
 
@@ -12,7 +12,7 @@
 
 ---
 
-## MuniCHI
+## ChatMPCH
 
 <div style="display: flex; align-items: center; height: fit-content;">
   <img src="https://avatars.githubusercontent.com/u/60937214?v=4" width="40" style="margin-right: 10px;"/>

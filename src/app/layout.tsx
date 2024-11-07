@@ -18,17 +18,17 @@ export default function RootLayout({
     <html lang='es' suppressHydrationWarning>
       <head>
         <meta charSet='UTF-8' />
-        <meta name='description' content='MuniCHI Chatbot' />
+        <meta name='description' content='ChatMPCHH Chatbot' />
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <meta
           property='og:image'
-          content='https://www.jhangmez.xyz/api/og2?title=MuniCHI'
+          content='https://www.jhangmez.xyz/api/og2?title=ChatMPCH'
         />
         <meta property='og:url' content='https://munichi.vercel.app/' />
-        <meta property='og:title' content='MuniCHI Chatbot' />
+        <meta property='og:title' content='ChatMPCH Chatbot' />
         <meta
           property='og:description'
-          content='MuniCHI, Chatbot prototipo realizado por @jhangmez.'
+          content='ChatMPCH, Chatbot prototipo realizado por @jhangmez.'
         />
       </head>
       <body className='bg-gray-100 dark:bg-background selection:bg-background selection:text-primary dark:selection:bg-primary dark:selection:text-background'>

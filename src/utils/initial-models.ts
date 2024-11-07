@@ -11,8 +11,8 @@ interface ModelInfo {
 export const INITIAL_MODELS: ModelInfo[] = [
   {
     nombre_comercial: 'MuniCHI',
-    model_id: 'hf.co/unprg/Llama-3.2-1B-MuniCHI:BF16',
-    nombre_original_modelo: 'Llama-3.2-1B-MuniCHI:BF16',
+    model_id: 'hf.co/unprg/Llama-3.2-1B-MuniCHI:Q4_K_M',
+    nombre_original_modelo: 'Llama-3.2-1B-MuniCHI:Q4_K_M',
     descripcion:
       'Modelo optimizado para responder preguntas en general sobre la Municipalidad de Chiclayo',
     status: 'activo',

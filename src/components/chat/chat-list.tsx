@@ -93,7 +93,7 @@ export default function ChatList({
                 className='h-20 w-14 object-contain  select-none'
               />
               <h1 className='text-2xl font-bold text-primary font-frances select-none'>
-                MuniCHI
+                ChatMPCH
               </h1>
               <span className='font-exo rounded-xl select-none font-xs px-1.5 py-0.5 text-xs uppercase text-yellow-800 font-bold bg-yellow-500'>
                 Beta
@@ -256,7 +256,7 @@ export default function ChatList({
             <Avatar className='flex justify-start items-center'>
               <AvatarImage
                 src='/munichi_logo.webp'
-                alt='MuniCHI'
+                alt='ChatMPCH'
                 width={6}
                 height={6}
                 className='object-contain '

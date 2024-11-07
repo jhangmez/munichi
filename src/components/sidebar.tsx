@@ -132,7 +132,7 @@ export function Sidebar({
               />
             )}
             <span className='transition-all duration-100'>
-              <span className='block group-hover:hidden'>MuniCHI</span>
+              <span className='block group-hover:hidden'>ChatMPCH</span>
               <span className='hidden group-hover:block'>Nuevo Chat</span>
             </span>
           </div>

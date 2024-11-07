@@ -46,7 +46,7 @@ export default function Home() {
           <DialogHeader className='space-y-2'>
             <DialogTitle>
               Bienvenido a{' '}
-              <span className='font-frances text-primary'>MuniCHI</span>
+              <span className='font-frances text-primary'>ChatMPCH</span>
             </DialogTitle>
             <DialogDescription>
               Escribe tu nombre para comenzar. Esto es sólo para personalizar tu

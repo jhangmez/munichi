@@ -151,7 +151,7 @@ export default function UserSettings() {
                 <InfoCircledIcon className='w-4 h-4' />
                 <p>
                   Sobre{' '}
-                  <span className='font-frances text-primary'>MuniCHI</span>
+                  <span className='font-frances text-primary'>ChatMPCH</span>
                 </p>
               </div>
             </DropdownMenuItem>
@@ -159,7 +159,8 @@ export default function UserSettings() {
           <DialogContent>
             <DialogHeader className='space-y-4 font-exo'>
               <DialogTitle>
-                Sobre <span className='font-frances text-primary'>MuniCHI</span>
+                Sobre{' '}
+                <span className='font-frances text-primary'>ChatMPCH</span>
               </DialogTitle>
               <div className='pl-2'>
                 <h3>Chatbot experimental.</h3>

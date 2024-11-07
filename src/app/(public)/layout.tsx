@@ -1,9 +1,9 @@
-const shortTitle = 'MuniCHI'
+const shortTitle = 'ChatMPCH'
 const description =
-  'MuniCHI, Chatbot prototipo realizado por @jhangmez y la Universidad Señor de Sipán'
+  'ChatMPCH, Chatbot prototipo realizado por @jhangmez y la Universidad Señor de Sipán'
 const jhangmez = ' | jhangmez'
 const title = `${shortTitle}${jhangmez}`
-const imageUrl = `https://www.jhangmez.xyz/api/og2?title=MuniCHI`
+const imageUrl = `https://www.jhangmez.xyz/api/og2?title=ChatMPCH`
 
 export const metadata = {
   title,

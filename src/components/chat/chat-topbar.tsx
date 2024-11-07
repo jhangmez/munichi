@@ -195,7 +195,7 @@ export default function ChatTopbar({
           <Button
             disabled={isLoading}
             variant='outline'
-            aria-label='Botón para seleccionar el modelo de MuniCHI'
+            aria-label='Botón para seleccionar el modelo de ChatMPCH'
             role='combobox'
             aria-expanded={open}
             className='w-[300px] justify-between font-exo'
