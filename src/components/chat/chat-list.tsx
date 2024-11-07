@@ -41,25 +41,6 @@ export default function ChatList({
     }
   }, [])
 
-  useEffect(() => {
-    // Fetch 4 initial questions
-    if (messages.length === 0) {
-      const questionCount = isMobile ? 2 : 4
-
-      setInitialQuestions(
-        INITIAL_QUESTIONS.sort(() => Math.random() - 0.5)
-          .slice(0, questionCount)
-          .map((message) => {
-            return {
-              id: '1',
-              role: 'user',
-              content: message.content
-            }
-          })
-      )
-    }
-  }, [isMobile, messages.length])
-
   const onClickQuestion = (value: string, e: React.MouseEvent) => {
     e.preventDefault()
 
@@ -93,7 +74,7 @@ export default function ChatList({
                 className='h-20 w-14 object-contain  select-none'
               />
               <h1 className='text-2xl font-bold text-primary font-frances select-none'>
-                ChatMPCH
+                MuniCHI
               </h1>
               <span className='font-exo rounded-xl select-none font-xs px-1.5 py-0.5 text-xs uppercase text-yellow-800 font-bold bg-yellow-500'>
                 Beta
@@ -256,7 +237,7 @@ export default function ChatList({
             <Avatar className='flex justify-start items-center'>
               <AvatarImage
                 src='/munichi_logo.webp'
-                alt='ChatMPCH'
+                alt='MuniCHI'
                 width={6}
                 height={6}
                 className='object-contain '
